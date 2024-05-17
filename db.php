@@ -11,7 +11,7 @@
     //Establishes the connection
     $conn = sqlsrv_connect($serverName, $connectionOptions);
 
-    /*if (isset($conn)){
-        echo 'Base de datos conectada';
-    }*/
+    if ($conn === false){
+        die(print_r(sqlsrv_errors(), true));
+    }
 ?>
