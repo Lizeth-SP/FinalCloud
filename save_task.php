@@ -14,6 +14,6 @@ include("db.php");
         $_SESSION['message'] = 'Task saved succesfully!';
         $_SESSION['message_type'] = 'success';
 
-        header("Location: index.php");
+        header("Location: home.php");
     }
 ?>
