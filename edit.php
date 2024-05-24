@@ -31,7 +31,7 @@
         
         $_SESSION['message'] = 'Task update successfully';
         $_SESSION['message_type'] = 'warning';
-        header("Location: index.php");
+        header("Location: home.php");
     }
 ?>
 
