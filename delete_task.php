@@ -10,6 +10,6 @@
 
         $_SESSION['message'] = 'Task removed successfully';
         $_SESSION['message_type'] = 'danger';
-        header("Location: index.php");
+        header("Location: home.php");
     }
 ?>
