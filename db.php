@@ -2,7 +2,7 @@
 
     //session_start();
 
-    $serverName = "servercomputo.database.windows.net"; // update me
+    $serverName = "servercomputo1.database.windows.net"; // update me
     $connectionOptions = array(
         "Database" => "bdComputo", // update me
         "Uid" => "usr", // update me
